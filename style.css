@@ -1,0 +1,106 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: #121C2B;
+}
+
+h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-transform: uppercase;
+text-align: center;
+color: aliceblue;
+margin: 30px;
+}
+
+
+
+.maincontainer{
+
+height: 70vh;
+width: 90%;
+
+margin: 0 50px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+
+}
+.container{
+
+height: 90%;
+width: 90%;
+border-radius: 15px;
+
+/* background-color: aliceblue; */
+/* background-image: url(i6.jpg); */
+
+
+
+}
+
+#img{
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.fa-solid {
+
+    font-size: 30px;
+    /* background-color: red; */
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: #fff;
+    margin: 20px;
+}
+
+
+.selectors{
+height: 50vh;
+width: 50%;
+/* background-color: #fff; */
+
+margin: 50px auto;
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(5,1fr);
+gap: 10px;
+
+}
+
+
+.select{
+
+background-color: #002120;
+border-radius: 5px;
+color: #fff;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.select:hover{
+
+
+    background-color: rgb(66, 66, 153);
+}
+
+
+.fa-solid:hover{
+
+ color: aquamarine;
+}
